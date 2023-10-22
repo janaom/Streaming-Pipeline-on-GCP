@@ -25,3 +25,6 @@ subscribe.py script creates a Google Cloud Pub/Sub subscriber and receives messa
   - It defines a callback function that is called whenever a message is received. In this case, the function simply prints the received message.
   - The subscriber is set up to continuously listen for messages from the subscription using the callback function.
   - The script enters an infinite loop with a 60-second delay between iterations to keep the subscriber listening for new messages.
+
+## Summary
+In summary, the project involves publishing messages to a Pub/Sub topic, processing those messages using Apache Beam, and subscribing to a different topic to consume and perform actions on the processed messages.
