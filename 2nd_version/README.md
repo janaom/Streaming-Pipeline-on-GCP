@@ -21,4 +21,6 @@ This code sets up a Beam pipeline that reads data from a pub/sub subscription, p
 
 ## Run subscribe_2nd_version in the 3rd terminal
 
+This code sets up a subscriber to receive messages from a specified pub/sub subscription.
+
 ![image](https://github.com/janaom/Streaming_Pipeline_on_GCP/assets/83917694/5d53c1e8-745b-4c14-ba0c-23bf4e873329)
