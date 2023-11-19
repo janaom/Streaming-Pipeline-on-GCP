@@ -9,6 +9,9 @@ Create Topics and Subscribtions
 
 ## Run `publish_2nd_version.py` in the first terminal
 
+This reads a CSV file, and publishes each record in the CSV file as a message to a pub/sub topic.
+
+
 ![image](https://github.com/janaom/Streaming_Pipeline_on_GCP/assets/83917694/801f90c8-43da-43f3-ba71-ba12317d0f10)
 
 
