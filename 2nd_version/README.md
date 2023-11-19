@@ -17,6 +17,8 @@ This reads a CSV file, and publishes each record in the CSV file as a message to
 
 ## Run process_2nd_version.py in the 2nd temrinal
 
+This code sets up a Beam pipeline that reads data from a pub/sub subscription, processes it, and writes it to a different pub/sub topic.
+
 ## Run subscribe_2nd_version in the 3rd terminal
 
 ![image](https://github.com/janaom/Streaming_Pipeline_on_GCP/assets/83917694/5d53c1e8-745b-4c14-ba0c-23bf4e873329)
