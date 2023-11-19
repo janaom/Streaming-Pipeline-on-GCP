@@ -49,7 +49,8 @@ if __name__ == "__main__":
 
         #publish the message to the pub/sub topic
         publisher.publish(pubsub_topic, event_data.encode('utf-8'))
-
+        
+#sleeps for 1 second before publishing the next message
         time.sleep(1)
 
     #delete the downloaded JSON key file
